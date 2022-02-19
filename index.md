@@ -24,7 +24,7 @@ Inserting data in the database
 }
 ```
 Searching data in the database using get() function
-````python
+```python
 >>> db.get(Students.name == 'Catherine')
 {"name": "Catherine", "Course": "Law", "year": 4}
 ```
